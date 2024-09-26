@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Eventually by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Nav -->
+	<nav id="nav">
+		<div class="container">
+			<button class="toggle-button" onclick="toggleMenu()">☰</button>
+			<ul class="nav-list">
+				<li><a href="#top">Home</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#qualification">Qualifications</a></li>
+				<li><a href="#certificate">Certificates</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Home -->
+	<article id="top" class="wrapper style3">
+		<div class="container">
+			<div class="col">
+				<div class="col-4 col-5-large col-12-medium">
+					<span class="image fit"><img src="images/avatar/Picture1.jpg" alt="avatar" /></span>
+				</div>
+				<div class="col-8 col-7-large col-12-medium">
+					<header>
+						<h1>Hi, I am <strong>Brian Ong</strong>.</h1>
+					</header>
+					<p>An ambitious Data Science student with a strong critical mindset and a passion for visual
+						storytelling. My academic background in Computer Science and Statistics equips me with expertise
+						in Python, R, and SQL for solving complex problems with large datasets. I also specialize in
+						delivering data-driven solutions that enhance business performance and strategy. With
+						proficiency in Power BI and Tableau, I create impactful dashboards that provide insights with
+						precision and efficiency. I am eager to apply my skills and continue gaining industry experience
+						to drive meaningful contributions.</p>
+
+					<a href="assets/files/BRIAN ONG CV.pdf" class="button primary" download>
+						Download CV
+					</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+
+	<!-- Portfolio -->
+	<article id="experience" class="wrapper style3">
+		<div class="container">
+			<header>
+				<h2>My work experience</h2>
+			</header>
+			<div class="row aln-center">
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<a href="#" class="image featured"><img src="images/logos/jungtalents.jpeg"
+								alt="JungTalents" /></a>
+						<h3>Data Analyst Intern</h3>
+						<h5><span class="icon solid fa-map-marker-alt"></span> Sydney</h5>
+						<p>Nov 2023 - Feb 2024</p>
+						<ul>
+							<li>Acquiring and ingesting data from AWS S3 to prepare for efficient Power BI analytics.
+							</li>
+							<li>Delivered data accuracy by applying Python and Google Sheet to extract, transform and
+								store data to develop business-critical Power BI dashboards.</li>
+							<li>Collaborating with cross-functional teams and other stakeholders such as product
+								managers to answer the business requirement , for example, using SQL and Power BI
+								reports to exceed stakeholder expectations.</li>
+							<li>Assisted supervisor to Implement automated triggers for Power BI, reducing manual and
+								improve the development of production and data-driven decision-making process.</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+
+	<!-- Portfolio -->
+	<article id="portfolio" class="wrapper style3">
+		<div class="container">
+			<header>
+				<h2>My Projects</h2>
+			</header>
+			<div class="row aln-center">
+				<!-- First Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img
+								src="images/projects/Payroll Remediation & Employee Dashboard.png" alt=""></div>
+						<h3>Payroll Remediation & Employee Dashboard</h3>
+						<button class="button primary" onclick="openModal(0)">Details</button>
+					</section>
+				</div>
+				<!-- Second Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img
+								src="images/projects/FLOOD FACTORS ANALYTICS AND PREDICTION.png" alt=""></div>
+						<h3>FLOOD FACTORS ANALYTICS AND PREDICTION</h3>
+						<button class="button primary" onclick="openModal(1)">Details</button>
+					</section>
+				</div>
+				<!-- Third Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img
+								src="images/projects/HOUSING PRICE ANALYTICS AND PREDICTION.png" alt=""></div>
+						<h3>HOUSING PRICE ANALYTICS AND PREDICTION</h3>
+						<button class="button primary" onclick="openModal(2)">Details</button>
+					</section>
+				</div>
+				<!-- Fourth Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img src="images/projects/E-Commerce Data Analytics.png" alt="">
+						</div>
+						<h3>E-Commerce Data Analytics</h3>
+						<button class="button primary" onclick="openModal(3)">Details</button>
+					</section>
+				</div>
+				<!-- Fifth Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img src="images/projects/Queensland Road Incidents Analytics.png"
+								alt=""></div>
+						<h3>Queensland Road Incidents Analytics</h3>
+						<button class="button primary" onclick="openModal(4)">Details</button>
+					</section>
+				</div>
+				<!-- Sixth Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img src="images/projects/Global Electronics Retailer Analysis.png"
+								alt=""></div>
+						<h3>Global Electronics Retailer Analysis</h3>
+						<button class="button primary" onclick="openModal(5)">Details</button>
+					</section>
+				</div>
+				<!-- Seventh Project -->
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<div class="image featured"><img
+								src="images/projects/PwC Call Center & Customer Churn Analytics.png" alt=""></div>
+						<h3>PwC Call Center & Customer Churn Analytics</h3>
+						<button class="button primary" onclick="openModal(6)">Details</button>
+					</section>
+				</div>
+			</div>
+
+			<!-- Modal Structure -->
+			<div id="projectModal" class="modal">
+				<div class="modal-content">
+					<span class="close" onclick="closeModal()">&times;</span>
+					<h3 id="modalTitle">Project Title</h3>
+					<img id="modalImage" src="" alt="Project Image" class="modal-image">
+					<p id="modalDescription">Project description will be here...</p>
+					<p id="modalTools">Tools Used: <span id="modalToolsList"></span></p>
+					<a id="modalLink" href="#" class="button primary" target="_blank">Visit Project</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+
+	<!-- Qualifications -->
+	<article id="qualification" class="wrapper style2">
+		<div class="container">
+			<header>
+				<h2>My Qualifications</h2>
+			</header>
+			<div class="row aln-center">
+				<div class="col-6 col-12-small qualification-item">
+					<article class="box style2">
+						<div class="image featured certificate-logo">
+							<img src="images/logos/University of Wollongong.png" alt="University of Wollongong Logo" />
+						</div>
+						<h3>Bachelor of Computer Science (AI and Big Data)</h3>
+						<h5>June 2023 - Present</h5>
+						<h5>University of Wollongong</h5>
+						<p>WAM: 8.5</p>
+						<p>Achievement: University Excellence Scholarship 30%</p>
+					</article>
+				</div>
+				<div class="separator"></div>
+				<div class="col-6 col-12-small qualification-item">
+					<article class="box style2">
+						<div class="image featured certificate-logo">
+							<img src="images/logos/UOW College.png" alt="UOW College Logo" />
+						</div>
+						<h3>Diploma of Information Technology</h3>
+						<h5>October 2022 - June 2023</h5>
+						<h5>UOW College</h5>
+						<p>WAM: 8.7</p>
+						<p>Achievement: UOW College scholarship 50%</p>
+					</article>
+				</div>
+			</div>
+			<hr>
+		</div>
+	</article>
+
+	<!-- Certificates -->
+	<article id="certificate" class="wrapper style2">
+		<div class="container">
+			<header>
+				<h2>My Certificates</h2>
+			</header>
+			<div class="row aln-center">
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<div class="image featured certificate-logo"
+							onclick="openModal('images/certificates/wf8DwPiWqcRzs3KDF_Standard Bank _GeLt5rrT3YQ7C3Got_1727273431538_completion_certificate.jpg')">
+							<img src="images/certificates/wf8DwPiWqcRzs3KDF_Standard Bank _GeLt5rrT3YQ7C3Got_1727273431538_completion_certificate.jpg"
+								alt="Actuarial Job Simulation" />
+						</div>
+						<h3>Actuarial Job Simulation</h3>
+						<h5>September 25th, 2024</h5>
+					</article>
+					<a class="button primary"
+						href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Standard%20Bank%20/wf8DwPiWqcRzs3KDF_Standard%20Bank%20_GeLt5rrT3YQ7C3Got_1727273431538_completion_certificate.pdf">View</a>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<div class="image featured certificate-logo"
+							onclick="openModal('images/certificates/mq38jBo7o3z25RQQb_Standard Bank_GeLt5rrT3YQ7C3Got_1727273987514_completion_certificate.jpg')">
+							<img src="images/certificates/mq38jBo7o3z25RQQb_Standard Bank_GeLt5rrT3YQ7C3Got_1727273987514_completion_certificate.jpg"
+								alt="Data Science Job Simulation" />
+						</div>
+						<h3>Data Science Job Simulation</h3>
+						<h5>September 25th, 2024</h5>
+					</article>
+					<a class="button primary"
+						href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Standard%20Bank%20/mq38jBo7o3z25RQQb_Standard%20Bank_GeLt5rrT3YQ7C3Got_1727273987514_completion_certificate.pdf">View</a>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<article class="box style2">
+						<div class="image featured certificate-logo"
+							onclick="openModal('images/certificates/a87GpgE6tiku7q3gu_PwC Switzerland_GeLt5rrT3YQ7C3Got_1727272563539_completion_certificate.jpg')">
+							<img src="images/certificates/a87GpgE6tiku7q3gu_PwC Switzerland_GeLt5rrT3YQ7C3Got_1727272563539_completion_certificate.jpg"
+								alt="Power BI Job Simulation" />
+						</div>
+						<h3>Power BI Job Simulation</h3>
+						<h5>September 25th, 2024</h5>
+					</article>
+					<a class="button primary"
+						href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_GeLt5rrT3YQ7C3Got_1727272563539_completion_certificate.pdf">View</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</article>
+
+	<article id="contact" class="wrapper style4">
+		<div class="container medium">
+			<div class="row">
+				<div class="col-12">
+					<h3>Find me on ...</h3>
+					<ul class="icons">
+						<li>
+							<a href="tel:0421872012" class="fa fa-solid fa-phone">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/brian-ong470/" class="icon brands fa-linkedin">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/Brian2703" class="icon brands fa-github">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:brianong470@gmail.com" class="icon fa-envelope">
+								<span class="label">Email</span>
+							</a>
+						</li>
+					</ul>
+
+					<ul class="copyright">
+						<li>Biran Ong's Portfolio &copy; Untitled.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- Scripts -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/data.js"></script>
+
+</body>
+
+</html>
